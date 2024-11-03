@@ -1,0 +1,55 @@
+{
+   "APPLICATION_ID" : "w10.0-2de7ab58-0ae0-47ea-a4e8-9517313a06cd",
+   "APP_LOCALE" : "fr",
+   "APP_VERSIONS" : [ "1.88.1.0" ],
+   "AUTO_UPLOAD_TURNED_ON" : true,
+   "BookType" : 2,
+   "CRASH_FILES" : [],
+   "FEATURE_WALKTHROUGH" : [ "1_fmbm" ],
+   "FEEDBACK_ENABLED" : true,
+   "FEEDBACK_FILES" : [],
+   "FEEDBACK_POPUP_TIME" : "1720302731",
+   "LAST_IMPORTED_BOOK_LOCATION" : "C:/Users/33661/Downloads",
+   "LAST_LAUNCHED_TIME" : "1719767332",
+   "OS_UPGRADE_LAST_SHOWN_VERSION" : "1.0.0",
+   "PACKAGE_AFTER_PUBLISHING_DONE" : false,
+   "PROMPT_FOR_LINK_EXTRACTION" : 300,
+   "PROMT_FOR_SAVE_PERIOD" : 300,
+   "RECENTLY_USED_TEXT_COLORS" : [
+      {
+         "COLOR" : "#6c0b07"
+      },
+      {
+         "COLOR" : "#902126"
+      },
+      {
+         "COLOR" : "#da592d"
+      }
+   ],
+   "RECENT_WORKSPACES" : [
+      {
+         "PATH" : "C:/Users/33661/Downloads/Dialogue with AI_ Journey to the Heart of Historical Enigmas_KC/Dialogue with AI_ Journey to the Heart of Historical Enigmas_KC.kcb",
+         "VERSION" : "1.88.1.0"
+      },
+      {
+         "PATH" : "C:/Users/33661/Downloads/_Essential Guide to Collector's Watches_KC/_Essential Guide to Collector's Watches_KC.kcb",
+         "VERSION" : "1.88.1.0"
+      },
+      {
+         "PATH" : "C:/Users/33661/Documents/_Guide Essentiel des Montres de Collection (1)_KC1/_Guide Essentiel des Montres de Collection (1)_KC1.kcb",
+         "VERSION" : "1.88.1.0"
+      },
+      {
+         "PATH" : "C:/Users/33661/Downloads/_Guide Essentiel des Montres de Collection (1)_KC/_Guide Essentiel des Montres de Collection (1)_KC.kcb",
+         "VERSION" : "1.88.1.0"
+      },
+      {
+         "PATH" : "C:/Users/33661/Downloads/_Guide Essentiel des Montres de Collection_KC/_Guide Essentiel des Montres de Collection_KC.kcb",
+         "VERSION" : "1.88.1.0"
+      }
+   ],
+   "SHOW_OS_UPGRADE_POPUP_FLAG" : true,
+   "TEMPORARY_WORKSPACE_PATH" : "",
+   "VERSION" : "1.88.1.0"
+}
+
