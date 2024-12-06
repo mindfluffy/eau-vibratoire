@@ -1,0 +1,39 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Configuration du média
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+locale: 'fr'
+
+# Configuration de l'interface
+site_url: https://eau-vibratoire.fr
+display_url: https://eau-vibratoire.fr
+logo_url: /images/logo.png
+
+collections:
+  - name: "blog"
+    label: "Articles de Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "URL simplifiée", name: "slug", widget: "string", pattern: ['^[a-zA-Z0-9-]+$', "L'URL ne doit contenir que des lettres, chiffres et tirets"]}
+      - {label: "Catégorie", name: "category", widget: "select", options: ["sciences", "eau", "sante", "agriculture"], required: true}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD", required: true}
+      - {label: "Image principale", name: "thumbnail", widget: "image", required: true}
+      - {label: "Description courte", name: "description", widget: "text", required: true}
+      - {label: "Auteur", name: "author", widget: "string", required: true}
+      - {label: "Contenu", name: "body", widget: "markdown", required: true}
+      - {label: "En vedette", name: "featured", widget: "boolean", default: false}
+      - {label: "Statut", name: "status", widget: "select", options: ["draft", "published"], default: "draft"}
+      - label: "Meta SEO"
+        name: "seo"
+        widget: "object"
+        fields:
+          - {label: "Meta Title", name: "title", widget: "string", required: false}
+          - {label: "Meta Description", name: "description", widget: "text", required: false}
+          - {label: "Keywords", name: "keywords", widget: "list", required: false}

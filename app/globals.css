@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F3F3E0;
+  --blue-dark: #133E87;
+  --blue-medium: #608BC1;
+  --blue-light: #CBDCEB;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--blue-dark);
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-ubuntu font-bold;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl text-blue-dark;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl text-blue-dark;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl text-blue-medium;
+  }
+  
+  a {
+    @apply text-blue-medium hover:text-blue-dark transition-colors;
+  }
+}
