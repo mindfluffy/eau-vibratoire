@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F3F3E0;
+  --blue-dark: #133E87;
+  --blue-medium: #608BC1;
+  --blue-light: #CBDCEB;
+}
+
+body {
+  min-height: 100vh;
+}

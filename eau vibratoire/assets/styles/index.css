@@ -1,0 +1,187 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  background-color: #FFFFFF;
+}
+
+header {
+  background-color: #82A1D1;
+  padding: 1rem;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  width: 50px;
+  margin-right: 1rem;
+}
+header h1 {
+  font-size: 1.5rem;
+  color: #1C2751;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin-left: 1rem;
+}
+header nav ul li a {
+  color: #344C92;
+  text-decoration: none;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  color: #5572B2;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem 0;
+}
+section h2 {
+  color: #344C92;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+section p {
+  color: #333333;
+}
+
+#home {
+  background: url("assets/img/bg1.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 2rem;
+  color: #FFFFFF;
+}
+
+#articles {
+  background: url("assets/img/bg articles.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 2rem;
+  color: #FFFFFF;
+}
+
+#newsletter {
+  background: url("assets/img/logoNL.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 2rem;
+  color: #FFFFFF;
+}
+#newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#newsletter form label {
+  margin-bottom: 0.5rem;
+}
+#newsletter form input[type=email] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+#newsletter form button {
+  padding: 0.5rem 1rem;
+  background-color: #344C92;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#newsletter form button:hover {
+  background-color: #1C2751;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem 0;
+}
+section h2 {
+  color: #344C92;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+section p {
+  color: #333333;
+}
+
+#home {
+  background: url("assets/img/bg1.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 2rem;
+  color: #FFFFFF;
+}
+
+#articles {
+  background: url("assets/img/articles.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 2rem;
+  color: #FFFFFF;
+}
+
+#newsletter {
+  background: url("assets/img/logoNL.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 2rem;
+  color: #FFFFFF;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+form label {
+  margin-bottom: 0.5rem;
+}
+form input[type=email] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+form button {
+  padding: 0.5rem 1rem;
+  background-color: #344C92;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #1C2751;
+}
+
+footer {
+  background-color: #1C2751;
+  color: #FFFFFF;
+  padding: 1rem;
+  text-align: center;
+}
+footer .social-media {
+  margin-top: 1rem;
+}
+footer .social-media a {
+  color: #FFFFFF;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+footer .social-media a:hover {
+  color: #82A1D1;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,6 @@
+[user]
+	email = salaunorama@gmail.com
+	name = mindfluffy
+[core]
+	editor = code --wait
+	autocrlf = true

@@ -1,0 +1,231 @@
+// Colors
+$color-light-blue: #82A1D1;
+$color-medium-blue: #5572B2;
+$color-dark-blue: #344C92;
+$color-deep-blue: #1C2751;
+$color-green: #8A9586;
+$color-white: #FFFFFF;
+$color-dark: #333333;
+
+// Typography
+$font-base: 'Arial', sans-serif;
+$font-size-base: 16px;
+
+// Spacing
+$spacing-base: 1rem;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-base;
+  font-size: $font-size-base;
+  color: $color-dark;
+  line-height: 1.6;
+  background-color: $color-white;
+}
+
+header {
+    background-color: $color-light-blue;
+    padding: $spacing-base;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+        width: 50px; // Taille ajustable
+        margin-right: $spacing-base;
+      }
+  
+    h1 {
+      font-size: 1.5rem;
+      color: $color-deep-blue;
+    }
+  
+    nav ul {
+      display: flex;
+      list-style: none;
+  
+      li {
+        margin-left: $spacing-base;
+  
+        a {
+          color: $color-dark-blue;
+          text-decoration: none;
+          font-weight: bold;
+  
+          &:hover {
+            color: $color-medium-blue;
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    padding: $spacing-base * 2;
+    margin: $spacing-base 0;
+
+    
+  
+    h2 {
+      color: $color-dark-blue;
+      font-size: 1.75rem;
+      margin-bottom: $spacing-base;
+    }
+  
+    p {
+      color: $color-dark;
+    }
+  }
+  
+  #home {
+    background: url('assets/img/bg1.jpg') no-repeat center center;
+    background-size: cover;
+    padding: $spacing-base * 2;
+    color: $color-white;
+  }
+  
+  #articles {
+    background: url('assets/img/bg articles.jpg') no-repeat center center;
+    background-size: cover;
+    padding: $spacing-base * 2;
+    color: $color-white;
+  }
+  
+  #newsletter {
+    background: url('assets/img/logoNL.jpg') no-repeat center center;
+    background-size: cover;
+    padding: $spacing-base * 2;
+    color: $color-white;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+  
+      label {
+        margin-bottom: $spacing-base / 2;
+      }
+  
+      input[type="email"] {
+        padding: $spacing-base / 2;
+        margin-bottom: $spacing-base;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+  
+      button {
+        padding: $spacing-base / 2 $spacing-base;
+        background-color: $color-dark-blue;
+        color: $color-white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: $color-deep-blue;
+        }
+      }
+    }
+  }
+  
+  section {
+    padding: $spacing-base * 2;
+    margin: $spacing-base 0;
+  
+    h2 {
+      color: $color-dark-blue;
+      font-size: 1.75rem;
+      margin-bottom: $spacing-base;
+    }
+  
+    p {
+      color: $color-dark;
+    }
+  }
+  
+  #home  {
+    background: url('assets/img/bg1.jpg') no-repeat center center;
+    background-size: cover;
+    padding: $spacing-base * 2;
+    color: $color-white;
+  }
+  
+  #articles {
+  background:url('assets/img/articles.jpg') no-repeat center center;
+  background-size: cover;
+  padding: $spacing-base * 2;
+  color: $color-white;
+}
+  
+  #newsletter  {
+    background: url('assets/img/logoNL.jpg') no-repeat center center;
+    background-size: cover;
+    padding: $spacing-base * 2;
+    color: $color-white;
+  }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+  
+      label {
+        margin-bottom: $spacing-base / 2;
+      }
+  
+      input[type="email"] {
+        padding: $spacing-base / 2;
+        margin-bottom: $spacing-base;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+  
+      button {
+        padding: $spacing-base / 2 $spacing-base;
+        background-color: $color-dark-blue;
+        color: $color-white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: $color-deep-blue;
+        }
+      }
+    }
+  
+
+
+  footer {
+    background-color: $color-deep-blue;
+    color: $color-white;
+    padding: $spacing-base;
+    text-align: center;
+  
+    .social-media {
+      margin-top: $spacing-base;
+  
+      a {
+        color: $color-white;
+        margin: 0 $spacing-base / 2;
+        text-decoration: none;
+  
+        &:hover {
+          color: $color-light-blue;
+        }
+      }
+    }
+  }
+  
