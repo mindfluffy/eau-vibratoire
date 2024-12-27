@@ -48,7 +48,6 @@ export default async function Article({ params }: Props) {
     <article className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
-          {/* En-tête de l'article */}
           <header className="mb-8">
             <div className="flex items-center gap-4 mb-4">
               <span className="text-sm text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
@@ -97,11 +96,26 @@ export default async function Article({ params }: Props) {
             </div>
           </header>
 
-          {/* Contenu de l'article */}
           <div 
             className="prose prose-lg max-w-none"
             dangerouslySetInnerHTML={{ __html: content }}
           />
+
+          {/* Suggestion d'autres articles */}
+          <div className="mt-8">
+            <h2 className="text-2xl font-bold">Articles connexes</h2>
+            {/* Ajouter ici des liens vers d'autres articles */}
+          </div>
+
+          {/* Bouton de retour */}
+          <div className="mt-6">
+            <button 
+              className="bg-blue-medium hover:bg-blue-light text-white font-bold py-2 px-4 rounded"
+              onClick={() => window.history.back()}
+            >
+              Retour
+            </button>
+          </div>
         </div>
       </div>
     </article>
