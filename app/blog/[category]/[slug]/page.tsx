@@ -101,13 +101,11 @@ export default async function Article({ params }: Props) {
             dangerouslySetInnerHTML={{ __html: content }}
           />
 
-          {/* Suggestion d'autres articles */}
           <div className="mt-8">
             <h2 className="text-2xl font-bold">Articles connexes</h2>
             {/* Ajouter ici des liens vers d'autres articles */}
           </div>
 
-          {/* Bouton de retour */}
           <div className="mt-6">
             <button 
               className="bg-blue-medium hover:bg-blue-light text-white font-bold py-2 px-4 rounded"
